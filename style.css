@@ -5,13 +5,46 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    width: 850px;
-    height: 650px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000000, #0a192f);
+    color: white;
 }
 
 .card{
     width: 800px;
     height: 600px;
-    
+    padding: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgba(209, 131, 30, 0.723);
+    border-radius: 30px;
 }
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+
+}
+
+.photo img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.contex {
+    margin-top: 30px;
+}
+
+
+
 
